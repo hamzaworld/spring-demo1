@@ -20,6 +20,7 @@ import io.swagger.annotations.Api;
 public class ApiController {
 	
 	@GetMapping("/home1")
+	
 	public String getGreeting() {
 		return "Welcome to first spring boot application";
 	}
